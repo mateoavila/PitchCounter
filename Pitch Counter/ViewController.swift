@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var pitchersName: UILabel!
     
     let defaults = UserDefaults.standard
+
     
+
     var allPitchers = [pitcher]()
     var finalName = ""
     var ballTotal = 0
